@@ -1,0 +1,582 @@
+/* At media  beins=========== */
+
+@media (min-width:382px) {
+
+  /* styel for the post input */
+  .xte {
+    width: 23.6em;
+  }
+
+  .ge- {
+    font-size: 13px;
+  }
+
+  .bg-s {
+    display: none;
+  }
+
+  /* post headings */
+
+  .bot {
+    justify-content: space-between;
+    padding-left: .9em;
+    padding-right: .9em;
+  }
+
+  .beginof {
+    display: none;
+  }
+
+}
+
+
+@media (min-width:462px) {
+  /* image post story maring */
+
+  .stry {
+    margin-left: .35em;
+    margin-right: .35em;
+    /* border-radius: .25rem; */
+    border-radius: .26rem;
+
+  }
+
+  .xte {
+    width: 25.6em;
+  }
+
+}
+
+/* ================= */
+
+@media (min-width:514px) {
+  .xte {
+    width: 27.6em;
+  }
+}
+
+/* style to hide the prof for mobile */
+
+.blendx {
+  display: none;
+}
+
+/* ============ */
+
+@media (min-width:544px) {
+  /* ================ */
+  /* show hidden items */
+
+  .beginof {
+    display: none;
+  }
+
+  .blendx {
+    display: none;
+  }
+
+  .fixi {
+    width: 15em;
+  }
+
+  /* ================== */
+
+  /* style for the show items */
+
+  .blendx {
+    font-size: 12.5px;
+  }
+
+
+  .overHeadColor {
+    background-color: rgb(108, 122, 169);
+    height: 5em;
+  }
+
+  .tim {
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+
+  .lin_lin {
+    border-top: .11em solid rgb(212, 203, 203);
+
+  }
+
+  .-moil {
+    margin-top: 1.45em;
+  }
+
+
+  .lsko {
+    margin-top: .45rem;
+  }
+
+
+  .-flex {
+    /* display: flex; */
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 5em;
+    /* width: 35em */
+  }
+
+  .plata {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .postis {
+    width: auto;
+    font-size: .85em;
+  }
+
+  .stry {
+    margin-left: 0em;
+    margin-right: 0em;
+
+  }
+
+  .-mx {
+    border-radius: .53rem;
+    margin-top: 0px;
+  }
+
+
+
+  .iptn .xte {
+    width: 16.5em;
+
+  }
+
+  .blatune {
+    margin-top: .22em;
+  }
+
+  .lsko {
+    padding-top: .89em;
+    padding-bottom: .89em;
+  }
+
+
+  /* header style to destop vies=== */
+
+  .closk {
+    display: none;
+  }
+
+  .lisben {
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid black; */
+    padding: .5em;
+    margin-right: 15rem;
+    /* width:10em; */
+    position: fixed;
+    background-color: rgba(216, 238, 247, 0.585);
+    border-radius: .25em;
+
+    left: 6.9em;
+    /* margin-top:8em; */
+    /* width: 200em; */
+
+  }
+
+  .icons {
+    width: 9em;
+    margin-top: -50px;
+    position: fixed;
+    right: 4em;
+  }
+
+  .trvs {
+    position: fixed;
+    border-bottom: .13em solid rgb(212, 203, 203);
+    /* box-shadow:  #d6d5d5 1px 2px 20px 0px; */
+
+    width: 100%;
+  }
+
+  .litot {
+    display: none;
+  }
+
+  .lin {
+
+    margin-left: .8em;
+  }
+
+  .seam {
+    display: block;
+  }
+
+
+
+}
+
+/* End of 544*/
+
+/* begin of 6** */
+
+@media (min-width:622px) {
+
+  [placeholder] {
+    font-weight: bold;
+    padding-left: 1.5em;
+  }
+
+
+  .beginof {
+    display: none;
+  }
+
+  .postis {
+    width: auto;
+  }
+
+
+  .-sec {
+    font-size: 12.5px;
+  }
+
+  .iptn .xte {
+    width: 22.9em;
+  }
+
+  /* display news fedd from this screnn size */
+
+  .folo {
+    border: .10em solid;
+    border-radius: 23px;
+    padding: 3px;
+    padding-left: 10px;
+    height: 1em;
+    width: 60px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+
+}
+
+@media (min-width:640px) {
+
+  /* ===================== */
+  .flexibel {
+    padding-bottom: 1.45em;
+  }
+
+  /* ==================== */
+
+  .blendx {
+    display: block;
+  }
+
+  .-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 5em;
+    /* width: 35em */
+  }
+
+  /* the main post area */
+
+  .postis {
+    width: 29em;
+    /* width: inherit; */
+  }
+
+
+}
+
+@media (min-width:774px) {
+
+  .-flex {
+    width: 50em;
+  }
+
+  .loa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fixi {
+    width: 17em;
+  }
+}
+
+
+
+
+@media (min-width:800px) {
+  /* style header */
+
+  .trvs {
+    height: 4em;
+  }
+
+  .lsk {
+    margin-top: 8.9px;
+  }
+
+  .lisben {
+    width: 19.5em;
+  }
+
+
+  /* ================ */
+
+  .postis {
+    width: 27.5em;
+    /* margin-left: 14em; */
+  }
+
+
+  .beginof {
+    /* display: block; */
+  }
+
+  .folo {
+    margin-top: 7.5px;
+  }
+
+  .newF {
+    background-color: white;
+    padding: 9px;
+    border-radius: .51rem;
+    height: 15.9em;
+    box-sizing: border-box;
+  }
+
+  .mage {
+    margin-bottom: 1.34em;
+  }
+
+
+  /* ================== */
+  .postis {
+    width: 34.5em;
+  }
+
+  .cotener {}
+}
+
+/* End of 800 3 conainers form 800 */
+
+
+@media (min-width:964px) {
+
+  .beginof {
+    display: block;
+  }
+
+  /* =============== */
+  .-flex {
+    width: 58.7em;
+  }
+
+  .fixi {
+    width: 14em;
+    font-size: 13.5px;
+  }
+
+  /* ================ */
+  .loa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* .postis {
+    width: 34.5em;
+
+  } */
+
+
+}
+
+
+@media (min-width:1024px) {
+
+  .fixi {
+    width: 14.6em;
+  }
+
+  .beginof {
+    width: 16em;
+
+  }
+
+  .newF {
+    font-size: 15px;
+  }
+
+  .-flex {
+    width: 61em;
+  }
+
+
+}
+
+
+/* =======  end of   ======== 1024  ========= */
+
+@media (min-width:1280px) {
+
+  /* flex  */
+  .-flex {
+    width: 79em;
+  }
+
+  .beginof {
+    width: 19.5em;
+  }
+
+  .newF {
+    font-size: 17.8px;
+  }
+
+  .ge- {
+    font-size: .8em;
+  }
+
+  .fixi {
+    font-size: 16px;
+    width: 14em;
+  }
+
+  .postis {
+    width: 38.7em;
+  }
+
+  .bot {
+    font-size: 15.25px;
+    padding: 12px;
+  }
+
+  .dott {
+    font-size: 26.9px;
+  }
+
+  /* width of post bar */
+
+  .iptn .xte {
+    width: 33em;
+    height: 3em;
+  }
+
+  /* =============================================== */
+}
+
+/* end of 1204 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1020px) {
+  /* main post section */
+
+  .-flex {
+    /* width: 59em; */
+
+  }
+
+
+  .postis {
+    /* width: 32.3em; */
+  }
+
+  /* .fixi {
+    width: 15.5em;
+  } */
+  /* 
+  .-flex {
+    margin-left: 3.65em;
+    margin-right: 3.65em;
+  } */
+
+  /* .newF {
+    width: 18.5em;
+  } */
+
+}
+
+/* End of ---- */
+
+
+@media (min-width:1236px) {
+
+  /* inpute */
+  /* .iptn .xte {
+    width: 37.5em;
+    height: 3em;
+
+  } */
+
+
+  /* [placeholder] {
+    font-weight:bold;
+  } */
+
+
+  /* .postis {
+    width: 40.9em;
+  } */
+
+  /* .-flex {
+    width: 75em;
+  } */
+
+  /* left side post */
+
+  /* .fixi {
+    width: 15.2em;
+    font-size: 14.5px;
+  } */
+
+  /* .-sec {
+    width: 22.5em;
+    font-size: 15px;
+  } */
+
+
+  /* .pht {
+    font-weight: bold;
+  } */
+
+
+
+
+}

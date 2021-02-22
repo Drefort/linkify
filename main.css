@@ -1,0 +1,245 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+}
+
+/* fonts added */
+@font-face{
+  font-family: (fontFaceProperties);
+  scr:("font/Roboto.ttf")
+
+}
+
+
+body {
+  background-color: rgb(235, 238, 247);
+  color: black;
+  
+  /* width: 100%; */
+}
+
+/* ================= */
+
+
+.lin {
+  font-size: 17.7px;
+
+}
+
+/* logo logo*/
+
+.lsk {
+ 
+  height: 4em;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px .9em 0px .9em;
+
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.icons div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons div span{
+  font-size: 11px;
+  display: none;
+
+}
+
+.icons img{
+  height: 1.2em;
+  padding: .78em;
+}
+
+.bot {
+  padding-top: .76em;
+  padding-bottom: .76em;
+}
+
+.container {
+  /* margin-top: 1em; */
+  /* background-color: white; */
+}
+
+.lfs {
+  display: none;
+}
+
+.closk{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 3.4em;
+}
+
+.lisben{
+  display: none;
+}
+
+.seam{
+  display: none;
+}
+
+.linb{
+  border-top: .11em solid rgb(212, 203, 203);
+  
+}
+
+/* header btm */
+
+/* story */
+
+.-mx {
+  background-color: white;
+  margin-top: .35em;
+  height: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: rgb(107, 106, 106);
+
+}
+
+.pht {
+  margin-top: .87em;
+}
+
+.time p {
+  font-size: 13.5px;
+  color: rgb(31, 30, 30);
+  padding-top: 10px;
+}
+
+
+/* ==== */
+
+.mimg img{
+  width:inherit ;
+}
+
+.mimg{
+  /* margin: 0px .5em 0px .5em; */
+  width:100%;
+}
+
+
+.mimg img {
+  /* width: 18.72em; */
+  height: 14em;
+}
+
+.mimg {
+  margin-bottom: -3.7px;
+}
+
+.min1 {
+  margin-top: -1.3em;
+  padding-bottom: .5rem;
+}
+
+.contx {
+  padding-left: 10px;
+  padding-right: 10px; /* general pading l and r*/
+}
+
+.hrt {
+  color: white;
+  background-color: rgb(207, 20, 20);
+  border-radius: 55%;
+  padding: .3em;
+  padding-top: .35em;
+  font-size: 13px;
+}
+
+.bot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dott {
+  margin-top: -7px;
+  font-size: 19.9px;
+}
+
+.ups {
+  color: white;
+  background-color: rgb(23, 104, 211);
+  border-radius: 50%;
+  padding: .3em;
+  font-size: 13px;
+}
+
+
+.xte {
+  border-radius: 19px;
+  height: 2.5em;
+  padding: 0px 10px;
+  width: 19.4em;
+  outline: none;
+  border: .12em solid rgb(184, 183, 183);
+}
+
+.iptn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pht {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.pues{
+  margin-bottom: .4em;
+  margin-top: .4em;
+}
+
+.alts{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 4em; */
+}
+
+.-xpmr{
+  margin: .8em;
+  margin-top: 10px;
+}
+
+.alts img{
+  width: 3.52em;
+}
+
+.calazi{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  /* margin-top: 6em; */
+}
+
+.stry{  
+  margin-top: .8em;
+  background-color: white;
+  padding-bottom: .89em;
+}
+
+/* =================== */
+
+
