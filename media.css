@@ -12,7 +12,9 @@
   }
 
   .bg-s {
-    display: none;
+    display: block;
+    color: rgb(143, 142, 142);
+    margin-left: 8.8px;
   }
 
   /* post headings */
@@ -67,8 +69,14 @@
   /* ================ */
   /* show hidden items */
 
+  .icons div span {
+    font-size: 11px;
+    display: block;
+  }
+
   .beginof {
     display: none;
+
   }
 
   .blendx {
@@ -119,7 +127,7 @@
     flex-direction: row;
     margin-left: 1em;
     margin-right: 1em;
-    margin-top: 5em;
+    margin-top: 5.95em;
     /* width: 35em */
   }
 
@@ -149,7 +157,7 @@
 
 
   .iptn .xte {
-    width: 16.5em;
+    width: 30em;
 
   }
 
@@ -187,11 +195,17 @@
   }
 
   .icons {
-    width: 9em;
-    margin-top: -50px;
+    /* width: 9em; */
+    /* margin-top: -50px;
     position: fixed;
-    right: 4em;
+    right: 4em; */
+
+    width: 15em;
+    margin-top: -40px;
+    position: fixed;
+    right: .55em;
   }
+
 
   .trvs {
     position: fixed;
@@ -265,6 +279,22 @@
 
 @media (min-width:640px) {
 
+  /* show name of icons below icons on the navigation menu */
+
+  .icons div span {
+    /* font-size: 11px; */
+    display: block;
+    margin-top: .51em;
+  }
+
+  .icons {
+    width: 9em;
+    width: 18em;
+    margin-top: -43px;
+    position: fixed;
+    right: 1em;
+  }
+
   /* ===================== */
   .flexibel {
     padding-bottom: 1.45em;
@@ -282,7 +312,7 @@
     flex-direction: row;
     margin-left: 1em;
     margin-right: 1em;
-    margin-top: 5em;
+    /* margin-top: 5em; */
     /* width: 35em */
   }
 
@@ -314,13 +344,23 @@
 }
 
 
-
-
 @media (min-width:800px) {
+
+
   /* style header */
+
+  .icons {
+    font-size: 1.2em;
+  }
 
   .trvs {
     height: 4em;
+  }
+
+  /* start post lent */
+
+  .iptn .xte{
+    width: 28em;
   }
 
   .lsk {
@@ -405,6 +445,10 @@
 
 
 @media (min-width:1024px) {
+
+  .icons {
+    font-size: 1.34em;
+  }
 
   .fixi {
     width: 14.6em;

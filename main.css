@@ -4,18 +4,32 @@
   font-family: Roboto;
 }
 
-/* fonts added */
-@font-face{
-  font-family: (fontFaceProperties);
-  scr:("font/Roboto.ttf")
+.bg-s {
+  display: none;
+}
 
+
+
+/* fonts added */
+@font-face {
+  font-family: (fontFaceProperties);
+  scr: ("font/Roboto.ttf")
+}
+
+
+/* flez content for posting icons */
+.flexImgOficons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 
 body {
   background-color: rgb(235, 238, 247);
   color: black;
-  
+
   /* width: 100%; */
 }
 
@@ -30,7 +44,7 @@ body {
 /* logo logo*/
 
 .lsk {
- 
+
   height: 4em;
   font-size: 13px;
   display: flex;
@@ -40,27 +54,32 @@ body {
 
 }
 
-.icons{
+.icons {
   display: flex;
   align-items: center;
   justify-content: space-around;
 
 }
 
-.icons div{
+/* hide massage for small devie */
+.messe {
+  display: none;
+}
+
+.icons div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.icons div span{
+.icons div span {
   font-size: 11px;
   display: none;
 
 }
 
-.icons img{
+.icons img {
   height: 1.2em;
   padding: .78em;
 }
@@ -68,6 +87,7 @@ body {
 .bot {
   padding-top: .76em;
   padding-bottom: .76em;
+  font-size: 12.53px;
 }
 
 .container {
@@ -79,24 +99,24 @@ body {
   display: none;
 }
 
-.closk{
+.closk {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 3.4em;
 }
 
-.lisben{
+.lisben {
   display: none;
 }
 
-.seam{
+.seam {
   display: none;
 }
 
-.linb{
+.linb {
   border-top: .11em solid rgb(212, 203, 203);
-  
+
 }
 
 /* header btm */
@@ -126,13 +146,13 @@ body {
 
 /* ==== */
 
-.mimg img{
-  width:inherit ;
+.mimg img {
+  width: inherit;
 }
 
-.mimg{
+.mimg {
   /* margin: 0px .5em 0px .5em; */
-  width:100%;
+  width: 100%;
 }
 
 
@@ -152,7 +172,8 @@ body {
 
 .contx {
   padding-left: 10px;
-  padding-right: 10px; /* general pading l and r*/
+  padding-right: 10px;
+  /* general pading l and r*/
 }
 
 .hrt {
@@ -206,40 +227,43 @@ body {
 
 }
 
-.pues{
+.pues {
   margin-bottom: .4em;
   margin-top: .4em;
 }
 
-.alts{
+.alts {
   display: flex;
   align-items: center;
   justify-content: space-between;
   /* margin-bottom: 4em; */
 }
 
-.-xpmr{
+.-xpmr {
   margin: .8em;
   margin-top: 10px;
 }
 
-.alts img{
+.alts img {
   width: 3.52em;
 }
 
-.calazi{
+.calazi {
   display: flex;
   justify-content: center;
-  flex-direction:column;
+  flex-direction: column;
   /* margin-top: 6em; */
 }
 
-.stry{  
+.stry {
   margin-top: .8em;
   background-color: white;
   padding-bottom: .89em;
 }
 
+/* hide follow */
+.beginof{
+  display: none;
+}
+
 /* =================== */
-
-
